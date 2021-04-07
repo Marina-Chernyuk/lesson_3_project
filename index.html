@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="virwport" content="width=device-width,initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/ee2ef8f203.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header container">
+        <a href="index.html" class="header__logo logo_site"><img class="logo_img" src="img/logo.png" alt="logo">
+            <span class="logo_site_text" >techn</span><span class="oo">o</span></a>
+        <form class="header__form" action="#">
+            <div class="header__block">
+                <button class="header__browse">Browse</button>
+            </div>
+            <input class="header__input" type="text" placeholder="Search for Item...">
+            <form action="#"><button type="submit" class="header__cearch"><span class="loupe"></span></button>
+            </form>
+        </form>
+  <div class="header__control"> 
+        <div class="header__control_cart">
+            <button class="btn-cart" type="button"data-id="1234">
+                <svg width="32px" height="29px" fill="#000000" viewBox="0 0 32.000000 29.000000">
+                    <g transform="translate(0,29) scale(0.1,-0.1)">
+                <path d="M0 281 c0 -6 11 -11 23 -11 22 0 26 -9 48 -92 l25 -93 81 -3 81 -3
+                25 55 c47 103 51 96 -52 96 -49 0 -93 -4 -96 -10 -4 -6 23 -10 74 -10 45 0 81
+                -2 81 -5 0 -2 -10 -25 -22 -50 l-22 -45 -67 0 -67 0 -23 88 c-24 85 -25 87
+                -57 90 -18 2 -32 -1 -32 -7z"/>
+                <path d="M74 35 c-4 -9 -2 -21 4 -27 15 -15 44 -1 40 19 -4 23 -36 29 -44 8z"/>
+                <path d="M242 28 c4 -30 43 -33 43 -3 0 13 -8 21 -23 23 -20 3 -23 0 -20 -20z"/>
+            </g>
+        </svg></button>
+        <div class="cart-block invisible"></div>
+     <!-- корзина пока display: none  
+            <div class="cart-block ">  
+                <div class="d-flex">
+                    <strong class="d-block">Всего товаров</strong> <div id="quantity"></div>
+                </div>
+                <hr>
+                <div class="cart-items">
+                    
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <strong class="d-block">Общая стоимость:</strong> <div id="price"></div>
+                </div>
+            </div> -->
+        </div> 
+        </div>       
+        <div class="header__control_button">
+            <button class="header__control_button_office">My Account</button>           
+        </div>
+    </div> 
+</header>
+<nav class="container nav__menu">        
+    <a href="index.html" class="nav__menu_a">home </a>
+    <a href="#" class="nav__menu_a">notebook</a>
+    <a href="#" class="nav__menu_a">mouse</a>
+    <a href="#" class="nav__menu_a">keyboard</a>
+    <a href="#" class="nav__menu_a">gamepad</a>
+    <a href="#" class="nav__menu_a">accoseriese</a>
+    <a href="#" class="nav__menu_a">hot deals</a>       
+</nav>
+    <main class="content_box">
+        
+    <div class="product container">
+        <div class="products"></div> 
+       
+    </div>    
+    </main>
+        <!--beforestart-->
+        <!--<p>-->
+            <!--afterestart-->
+        <!--    <span></span>-->
+            <!--beforeend-->
+        <!--</p>-->
+        <!--afterend-->   
+    <footer class="footer">
+        <p class="footer__text">&#169; 2021 Techno All Rights Reserved</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
